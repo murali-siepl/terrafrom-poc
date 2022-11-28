@@ -16,6 +16,7 @@ resource "azurerm_resource_group" "tamopsrg" {
   location = "eastus2"
 }
  
+ 
 resource "azurerm_storage_account" "tamopssa" {
   name                     = "tamopssatf67"
   resource_group_name      = azurerm_resource_group.tamopsrg.name
