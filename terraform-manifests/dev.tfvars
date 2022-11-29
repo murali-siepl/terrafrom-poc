@@ -1,5 +1,8 @@
 # Environment Name
 environment = "dev"
+business_divsion = "hr-mdx"
+resource_group_location = "eastus"
+resource_group_name = "rg-mdx"
 
 # Virtual Network Variables
 vnet_name = "vnet"
